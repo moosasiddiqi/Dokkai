@@ -9,8 +9,8 @@
 
 ---
 
-<!-- Replace the line below with your actual demo GIF or screenshot -->
-![Dokkai Demo](demo.gif)
+<img width="1920" height="1200" alt="dokkai" src="https://github.com/user-attachments/assets/262d9917-4715-4cdf-9995-d0a313e7d97f" />
+
 
 ---
 
@@ -27,7 +27,7 @@ Dokkai is a Chrome extension that opens as a sidebar on any webpage. In one clic
 
 ## Demo
 
-> 📹 [Watch the demo on YouTube](#) <!-- Replace with your actual link -->
+> 📹 [Watch the demo on YouTube](#) 
 
 ---
 
