@@ -16,7 +16,7 @@
 
 ## What it does
 
-Dokkai is a Chrome extension that opens as a sidebar on any webpage. In one click it reads the page, generates an AI summary, and lets you ask follow-up questions — all without leaving the tab.
+Dokkai is a Chrome extension that opens as a sidebar on any webpage. In one click, it reads the page, generates an AI summary, and lets you ask follow-up questions, all without leaving the tab.
 
 - **Instant summaries** — paste any article, product page, or documentation and get a clear breakdown in seconds
 - **Chat with the page** — ask specific questions and get answers grounded in the actual page content
@@ -88,7 +88,7 @@ dokkai-extension/
 
 ## Security
 
-Your API key is stored using Chrome's local storage API and never leaves your machine. It is not sent to any third-party server — only directly to Google's Gemini API.
+Your API key is stored using Chrome's local storage API and never leaves your machine. It is not sent to any third-party server, only directly to Google's Gemini API.
 
 ---
 
