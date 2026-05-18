@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PageMind</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="sidebar.css" />
+</head>
+<body>
+  <div class="app">
+
+    <!-- Header -->
+    <div class="header">
+      <div class="logo">
+        <div class="logo-mark">
+          <span class="logo-dot"></span>
+          <span class="logo-dot"></span>
+          <span class="logo-dot"></span>
+        </div>
+        <span class="logo-text">Dokkai</span>
+      </div>
+      <button class="settings-btn" id="settingsBtn" title="Settings">⚙</button>
+    </div>
+
+    <!-- Settings Panel -->
+    <div class="settings-panel hidden" id="settingsPanel">
+      <label class="settings-label">Gemini API Key</label>
+      <input type="password" id="apiKeyInput" class="api-input" placeholder="AIza..." />
+      <button class="save-btn" id="saveKeyBtn">Save Key</button>
+      <p class="settings-note">Your key is stored locally and never shared.</p>
+    </div>
+
+    <!-- Page Info -->
+    <div class="page-info hidden" id="pageInfo">
+      <div class="page-title" id="pageTitle">—</div>
+      <div class="page-url" id="pageUrl">—</div>
+    </div>
+
+    <!-- Summary Section -->
+    <div class="section" id="summarySection">
+      <div class="section-header">
+        <span class="section-label">SUMMARY</span>
+        <button class="summarize-btn" id="summarizeBtn">Analyse Page</button>
+      </div>
+      <div class="summary-box" id="summaryBox">
+        <div class="empty-state">
+          <div class="empty-icon">◈</div>
+          <p>Click <strong>Analyse Page</strong> to summarise the current page</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="divider hidden" id="chatDivider"></div>
+
+    <!-- Chat Section -->
+    <div class="chat-section hidden" id="chatSection">
+      <div class="section-label">CHAT WITH PAGE</div>
+      <div class="chat-messages" id="chatMessages"></div>
+      <div class="chat-input-row">
+        <input type="text" id="chatInput" class="chat-input" placeholder="Ask anything about this page…" />
+        <button class="send-btn" id="sendBtn">↑</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="sidebar.js"></script>
+</body>
+</html>
