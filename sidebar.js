@@ -76,7 +76,7 @@ summarizeBtn.addEventListener("click", async () => {
     // Reset chat
     chatHistory = [];
 
-    const systemPrompt = `You are PageMind, a sharp and intelligent reading assistant. 
+    const systemPrompt = `You are Dokkai, a sharp and intelligent reading assistant. 
 The user is viewing a webpage. Here is the full page content:
 
 TITLE: ${pageContent.title}
